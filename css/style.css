@@ -1,0 +1,177 @@
+.bgimg{
+	background-image: url('../images/pic10.jpg ');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 660px;
+}
+.headerset{
+	padding-top: 250px;
+	box-sizing: border-box;
+
+
+}
+ .headerset h2{
+ 	font-size: 42px;
+
+
+ }
+ .headerset h1{
+ 	font-size: 82px;
+ 	font-weight: bold;
+
+ }
+
+ /*
+ ...............ourservices...........*/
+
+
+
+ .ourservices{
+ 	padding: 100px 0px 60px;
+ 	height: 700px;
+
+
+
+ }
+ .ourservices h1{
+ 	font-size: 50px;
+ 	font-weight: bold;
+ }
+
+
+.rowsetting{
+	margin: 80px 0px !important;
+}
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+
+}
+.fa-shopping-cart{
+	margin-top: 24px;
+
+
+}
+.fa-meetup{
+	margin-top: 24px;
+}
+.fa-user-circle{
+	margin-top: 24px;
+}
+
+.rowsetting h2{
+	margin-top: 20px;
+	font-weight: italic;
+	font-size: 30px;
+}
+
+.rowsetting p{
+	padding: 10px;
+   color: #6c757d!important;
+
+}
+/*
+/////our_projects*/
+
+.our_projects{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+
+}
+
+.our_projects h1{
+	font-size: 50px;
+	font-style: bold;
+
+}
+.card{
+	margin-top: 40px;
+	min-height: 200px;
+	max-height: 400px;
+	margin-bottom: 100px;
+
+}
+
+/*.......................OUR TEAM */
+
+
+.ourteam{
+	height: 700px;
+	padding: 100px 0px 60px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+.ourteam h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.teamsetting{
+	margin-top: 70px !important;
+
+}
+
+
+
+/*
+//////responsive//////
+*/
+
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.headerset h2{
+ 	font-size: 42px;
+
+
+ }
+ .headerset h1{
+ 	font-size: 62px;
+ 	font-weight: bold;
+
+ }
+
+
+
+@media(min-width: 575px) and (max-width: 767px){
+
+}
+
+@media(min-width: 460px) and (max-width: 574px){
+
+}
+
+@media(max-width: 479px){
+	.headerset h2{
+ 	font-size: 22px;
+
+
+ }
+ .headerset h1{
+ 	font-size: 42px;
+ 	font-weight: bold;
+
+ }
+
+ 
+.ourservices{
+	height: 2700px;
+}
+
+.ourteam{
+	height: 1500px;
+}
+
+.our_projects{
+	height: 5000px;
+}
+
+
+}
